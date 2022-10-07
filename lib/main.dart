@@ -31,14 +31,14 @@ class Randomdice extends StatefulWidget {
 }
 
 class _RandomdiceState extends State<Randomdice> {
-  var randomnumber1 = Random().nextInt(5);
+  var randomnumber1 = Random().nextInt(6);
 
-  var randomnumber2 = Random().nextInt(5);
+  var randomnumber2 = Random().nextInt(6);
 
   void setRandomNumber() {
     setState(() {
-      randomnumber1 = Random().nextInt(5);
-      randomnumber2 = Random().nextInt(5);
+      randomnumber1 = Random().nextInt(6);
+      randomnumber2 = Random().nextInt(6);
     });
   }
 
